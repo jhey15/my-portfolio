@@ -102,6 +102,16 @@ width: 350px;
 border-radius: 50%;
 }
 
+/* SECTION 2: Skills */
+.about-section { 
+padding: 0 50px; 
+margin-bottom: 180px; 
+}
+
+.skills-section h2 {
+text-align: center;
+}
+
 @media (max-width: 850px) {
 /* SECTION 1: Hero */
 .hero-section .text h2 {
