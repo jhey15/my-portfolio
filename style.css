@@ -1,16 +1,6 @@
-.container {
-	background-color: black;
-}
 body {
 	border-color: #7ED7D5;
-	font-family: Arial, sans-serif;
-}
-div {
-	display:flex;
-	justify-content: center;
-	background-color: black;
-	color: white;
-	font-size: 35px; 
+	font-family: Arial, sans-serif
 }
 h1 {
 	display:flex;
@@ -18,7 +8,7 @@ h1 {
 	font-size: 25px;
 	font-family: Arial, sans-serif;
 	color: black;
-	
+	background-color: black;
 }
 
 h2 {
@@ -47,4 +37,5 @@ a:hover {
 	text-decoration: underline;
 	color: #7ED7D5;
 	
+
 }
