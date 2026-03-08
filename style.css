@@ -102,6 +102,49 @@ width: 350px;
 border-radius: 50%;
 }
 
+/* SECTION 2: About */
+.about-section{
+padding: 0 50px;
+margin-bottom: 100px;
+}
+
+.about-section h2 {
+font-size: 35px;
+margin-bottom: 30px;
+}
+
+.about-section .group{
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-section .group .person-details {
+text-align: center;
+flex: 2;
+}
+
+.about-section .group .text {
+flex: 8;
+}
+
+.about-section .group .person-details img {
+width: 200px;
+aspect-ratio: 1/1;
+object-fit: cover;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+
+.about-section .group .person-details p {
+font-weight: 600;
+}
+
+.about-section .group .person-details p:last-child {
+font-weight: normal;
+
+}
+
 @media (max-width: 850px) {
 /* SECTION 1: Hero */
 .hero-section .text h2 {
@@ -119,8 +162,14 @@ font-size: 35px;
 width: 350px;
 }
 
+/* SECTION 2: About */
+.about-section {
+text-align: center;
+}
 
-
+.about-section .group {
+flex-direction: column;
+}
 
 @media (max-width: 600px) {
 /* NAVBAR */
