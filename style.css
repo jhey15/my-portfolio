@@ -55,5 +55,17 @@ border-radius: 5px;
 margin-left: 5px;
 }
 
+@media (max-width: 600px) {
+/* NAVBAR*/
+.nav {
+margin: 0 20px;
+}
 
+.nav .right a {
+font-size: 22px;
+}
 
+.nav .right a span {
+display: none;
+}
+}
