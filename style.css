@@ -39,3 +39,21 @@ font-size: 22px;
 font-weight: 600;
 }
 
+.nav .right a {
+color: var(--text-color);
+margin: 0 10px;
+}
+
+.nav .right a:last-child {
+color: var(--background-color);
+background-color: var(--text-color);
+padding: 5px 15px;
+border-radius: 5px;
+}
+
+.nav .right a span {
+margin-left: 5px;
+}
+
+
+
