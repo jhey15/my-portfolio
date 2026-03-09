@@ -24,3 +24,16 @@ color: var(--link-color)
 text-decoration: none;
 }
 
+/* NAVBAR */
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 50px;
+height: 80px;
+}
+
+.nav .left a {
+
+}
+
