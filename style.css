@@ -51,7 +51,8 @@ color: #e6ffff
 
 section {
 padding: 100px 20px;
-margin: 60px;
+margin: 40px auto;
+max-width: 900px;
 }
 
 .project {
@@ -66,6 +67,6 @@ box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
 footer {
 background: #222;
 color: white;
-padding 0px 10;
+padding: 10px;
 margin-top: 20px;
 }
