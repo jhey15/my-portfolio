@@ -28,5 +28,44 @@ padding: 0 20px;
 }
 
 nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
 
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s;
+}
+
+nav ul li a:hover {
+color: #e6ffff
+}
+
+section {
+padding: 100px 20px;
+margin: 60px;
+}
+
+.project {
+background: #ffffff;
+padding: 20px;
+margin: 20px auto;
+max-width: 800px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+background: #222;
+color: white;
+padding 0px 10;
+margin-top: 20px
 }
